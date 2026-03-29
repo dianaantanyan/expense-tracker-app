@@ -1,0 +1,79 @@
+:root {
+    /* Chalky */
+    --color-chalky-25: #E0F8F7;
+  
+    /* Aqua */
+    --color-aqua-100: #DDEBF9;
+    --color-aqua-300: #63D8D6;
+    --color-aqua-500: #15CDCA;
+    --color-aqua-700: #13B2AF;
+  
+    /* Mint */
+    --color-mint-200: #4FE0B6;
+    --color-mint-300: #4DFFCA;
+  
+    /* Warning */
+    --color-warning-100: #412B12;
+    --color-warning-200: #FDDBB5;
+    --color-warning-500: #F78809;
+  
+    /* Error */
+    --color-error-400: #F97066;
+    --color-error-500: #FF4E64;
+  
+    /* Black */
+    --color-black: #000000;
+    --color-black-800: #141414;
+    --color-black-850: #121315;
+    --color-black-900: #121314;
+  
+    /* Gray */
+    --color-gray-10: #EDEEF0;
+    --color-gray-25: #F8F9FA;
+    --color-gray-40: #ECEEEF;
+    --color-gray-50: #81878A;
+    --color-gray-60: #505658;
+    --color-gray-70: #13161B;
+    --color-gray-90: #1D1D1D;
+    --color-gray-95: #212121;
+    --color-gray-100: #E1E3E5;
+    --color-gray-200: #C9CCCF;
+    --color-gray-300: #B1B5B8;
+    --color-gray-400: #999EA1;
+    --color-gray-500: #262B33;
+    --color-gray-600: #686F71;
+    --color-gray-700: #303030;
+    --color-gray-800: #2D3233;
+    --color-gray-900: #212225;
+  
+    /* Blue */
+    --color-blue-500: #4DA4FF;
+    --color-blue-600: #3E54D3;
+    --color-blue-700: #6484E5;
+    --color-blue-800: #8DB7FF;
+  
+    /* Brand */
+    --color-brand-25: #E0F8F7;
+    --color-brand-100: #A2E8E7;
+    --color-brand-200: #4DDCDC;
+    --color-brand-400: #5B97DB;
+    --color-brand-500: #4F80E2;
+    --color-brand-600: #3DBE91;
+  
+    /* Gradients */
+    --color-basic-package-gradient: linear-gradient(180deg, #6C7C95 0%, #505A6B 100%);
+    --color-silver-package-gradient: linear-gradient(180deg, #D9D9D9 0%, #737373 100%);
+    --color-premium-package-gradient: linear-gradient(180deg, #95E4E8 0%, #547582 100%);
+    --color-gold-package-gradient: linear-gradient(180deg, #E8D095 0%, #827554 100%);
+    --color-gray-gradient: linear-gradient(180deg, rgba(20,22,26,0.2) 0%, rgba(124,127,139,0.2) 100%);
+    --color-aqua-gradient: linear-gradient(180deg, #15CDCA 0%, #34D7BF 53.28%, #4FE0B6 100%);
+  }
+  
+  /* Dark mode */
+  .dark {
+    --color-body-background: var(--color-black-900);
+    --color-input-background: var(--color-black-850);
+    --color-input-border: var(--color-gray-700);
+    --color-button-bg: var(--color-aqua-300);
+    --color-button-bg-hover: var(--color-aqua-500);
+  }
